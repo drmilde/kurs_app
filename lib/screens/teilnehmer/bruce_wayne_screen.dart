@@ -22,15 +22,28 @@ class _BruceWayneScreenState extends State<BruceWayneScreen> {
             onTap: () {},
             child: Center(
               child: Container(
-                height: 200,
-                width: 200,
-                //width: double.infinity,
+                height: 500,
+                //width: 200,
+                width: double.infinity,
                 color: Colors.deepOrange,
-                child: Center(
-                    child: Text(
-                  "Klicken",
-                  style: TextStyle(fontSize: 30.0, color: Colors.white),
-                )),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                      width:300,
+                      child: Image.network(
+                          "https://cdn1.spiegel.de/images/image-1257544-860_poster_16x9-ztsp-1257544.jpg"),
+                    ),
+                    SizedBox(
+                      height: 30.0,
+                    ),
+                    Center(
+                        child: Text(
+                      "I am Batman",
+                      style: TextStyle(fontSize: 30.0, color: Colors.white),
+                    )),
+                  ],
+                ),
               ),
             ),
           ),

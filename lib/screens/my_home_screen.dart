@@ -19,7 +19,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
       "Jan-Torsten Milde",
       "Amy Farrah Fowler",
       "Bruce Wayne",
-      "Leonard Hofstaedter",
+      "Leonhard Hoffstetter",
       "Sheldon Cooper",
     ];
   }
