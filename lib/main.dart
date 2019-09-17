@@ -5,6 +5,7 @@ import 'screens/teilnehmer/amy_farrah_fowler_screen.dart';
 import 'screens/teilnehmer/bruce_wayne_screen.dart';
 import 'screens/teilnehmer/leonhard_hoffstetter_screen.dart';
 import 'screens/teilnehmer/milde_screen.dart';
+import 'screens/teilnehmer/sheldon_cooper_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         "Amy Farrah Fowler": (context) => AmyFarrahFowlerScreen(),
         "Bruce Wayne": (context) => BruceWayneScreen(),
         "Leonhard Hoffstetter": (context) => LeonhardHoffstetterScreen(),
+        "Sheldon Cooper": (context) => SheldonCooperScreen(),
       },
       home: MyHomeScreen(title: 'Kursseite'),
     );
